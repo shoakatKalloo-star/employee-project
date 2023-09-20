@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeWeb\\EmployeeWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\shoak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shoak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\EmployeeDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\EmployeeDataAccess.csproj",
+        "projectName": "EmployeeDataAccess",
+        "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\EmployeeDataAccess.csproj",
+        "packagesPath": "C:\\Users\\shoak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shoak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeWeb\\EmployeeWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeWeb\\EmployeeWeb.csproj",
+        "projectName": "EmployeeWeb",
+        "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeWeb\\EmployeeWeb.csproj",
+        "packagesPath": "C:\\Users\\shoak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shoak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\EmployeeDataAccess.csproj": {
+                "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\EmployeeDataAccess.csproj"
+              },
+              "C:\\Users\\shoak\\source\\repos\\WebApi\\WebApiServices\\EmployeeServices.csproj": {
+                "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\WebApiServices\\EmployeeServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shoak\\source\\repos\\WebApi\\WebApiServices\\EmployeeServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shoak\\source\\repos\\WebApi\\WebApiServices\\EmployeeServices.csproj",
+        "projectName": "EmployeeServices",
+        "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\WebApiServices\\EmployeeServices.csproj",
+        "packagesPath": "C:\\Users\\shoak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\WebApiServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shoak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\EmployeeDataAccess.csproj": {
+                "projectPath": "C:\\Users\\shoak\\source\\repos\\WebApi\\EmployeeDataAccess\\EmployeeDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
